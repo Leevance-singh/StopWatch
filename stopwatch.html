@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Playwrite+NG+Modern:wght@100..400&family=Sankofa+Display&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+<div class="container nanum-pen-script-regular" style="font-size: 200%;">
+    <label for="time"></label>
+        <h1 id="display" style="font-size: 300%; margin-bottom: 0;">00:00:00</h1>
+    <div class="controls wrap nanum-pen-script-regular">
+        <button class="button" onclick="make_lap()">Lap</button>
+        <button class="button" onclick="reset()">Reset</button>
+        <button class="button" id="start" onclick="start_watch()">Start</button>
+    </div>
+</div>
+<div id="lap_display">
+        
+</div>
+    <script src="stopwatch.js"></script>
+</body>
+</html>
